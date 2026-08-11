@@ -1,0 +1,96 @@
+delete from ccbn.ci_ft_proc where ft_id in (select ft_id from ccbn.ci_ft where bill_id in ('914171391635'))
+/
+commit;
+--
+delete from ccbn.ci_ft_k where ft_id in (select ft_id from ccbn.ci_ft where bill_id in ('914171391635'))
+/
+commit;
+--
+delete from ccbn.ci_ft_gl where ft_id in (select ft_id from ccbn.ci_ft where bill_id in ('914171391635'))
+/
+commit;
+--
+delete from ccbn.ci_ft where bill_id in ('914171391635')
+/
+commit;
+-- ********************************************************************************
+delete from ccbn.ci_bseg_sq where bseg_id in (select bseg_id from ccbn.ci_bseg where bill_id in ('914171391635'))
+/
+commit;
+--
+delete from ccbn.ci_bseg_read where bseg_id in (select bseg_id from ccbn.ci_bseg where bill_id in ('914171391635'))
+/
+commit;
+--
+delete from ccbn.ci_bseg_msg where bseg_id in (select bseg_id from ccbn.ci_bseg where bill_id in ('914171391635'))
+/
+commit;
+--
+delete from ccbn.ci_bseg_k where bseg_id in (select bseg_id from ccbn.ci_bseg where bill_id in ('914171391635'))
+/
+commit;
+--
+delete from ccbn.ci_bseg_item where bseg_id in (select bseg_id from ccbn.ci_bseg where bill_id in ('914171391635'))
+/
+commit;
+--
+delete from ccbn.ci_bseg_excp where bseg_id in (select bseg_id from ccbn.ci_bseg where bill_id in ('914171391635'))
+/
+commit;
+--
+delete from ccbn.ci_bseg_cl_char where bseg_id in (select bseg_id from ccbn.ci_bseg where bill_id in ('914171391635'))
+/
+commit;
+--
+delete from ccbn.ci_bseg_calc_ln where bseg_id in (select bseg_id from ccbn.ci_bseg where bill_id in ('914171391635'))
+/
+commit;
+--
+delete from ccbn.ci_bseg_calc where bseg_id in (select bseg_id from ccbn.ci_bseg where bill_id in ('914171391635'))
+/
+commit;
+--
+delete from ccbn.ci_bseg where bill_id in ('914171391635')
+/
+commit;
+-- *************************************************************************************
+delete from ccbn.ci_bill_sa where bill_id in ('914171391635')
+/
+commit;
+--
+delete from ccbn.ci_bill_routing where bill_id in ('914171391635')
+/
+commit;
+--
+delete from ccbn.ci_bill_msg_prm where bill_id in ('914171391635')
+/
+commit;
+--
+delete from ccbn.ci_bill_msgs where bill_id in ('914171391635')
+/
+commit;
+--
+delete from ccbn.ci_bill_k where bill_id in ('914171391635')
+/
+commit;
+--
+delete from ccbn.ci_bill_excp where bill_id in ('914171391635')
+/
+commit;
+--
+delete from ccbn.ci_bill_char where bill_id in ('914171391635')
+/
+commit;
+--
+delete from ccbn.ci_bill where bill_id in ('914171391635')
+/
+commit;
+--
+select * from ccbn.ci_bill where bill_id in ('914171391635')
+/
+commit;
+--
+delete from ccbn.ci_ft_proc where ft_id in (select ft_id from ccbn.ci_ft where bill_id in ('914171391635'))
+/
+commit;
+--
